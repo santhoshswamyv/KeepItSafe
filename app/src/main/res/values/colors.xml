@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Colors -->
+    <color name="buttonBg">#6082B6</color>
+
+    <!-- Existing Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="status_bar_color">#FF6200EE</color>
+
+    <!-- Background Colors -->
+    <color name="appBg">#E5E4E2</color>
+
+    <!-- Status Bar Color -->
+    <color name="statusBar">#708090</color>
+
+    <!-- Button Background Color -->
+    <color name="btnBg">#C0C0C0</color>
+
+    <!-- Text Colors -->
+    <color name="textColor">#6082B6</color>
+    <color name="smallText">#7393B3</color>
+
+    <!-- Gray Shades -->
+    <color name="ashGray">#B2BEB5</color>
+    <color name="blueGray">#7393B3</color>
+    <color name="charcoal">#36454F</color>
+    <color name="darkGray">#A9A9A9</color>
+    <color name="glaucous">#6082B6</color>
+    <color name="gray">#808080</color>
+    <color name="gunmetalGray">#818589</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="pewter">#899499</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="sageGreen">#8A9A5B</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="slateGray">#708090</color>
+    <color name="smoke">#848884</color>
+    <color name="steelGray">#71797E</color>
+
+    <!-- Dialog Box Colors -->
+    <color name="dialogBg">#C0C0C0</color>
+    <color name="dialogTextColor">#36454F</color>
+    <color name="dialogBtnBg">#2B2B2B</color>
+</resources>

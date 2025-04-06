@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="top"
+    android:background="@color/appBg">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cinzelbold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- General Description -->
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage your app settings below."
+        android:textSize="14sp"
+        android:textColor="@color/smallText"
+        android:fontFamily="@font/cinzelsemibold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Reset Password Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/txtResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔑 Reset Password"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/smallText"
+            android:fontFamily="@font/cinzelbold"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset your password securely ."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/cinzelsemibold"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Password"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/cinzelbold"
+            android:padding="12dp"/>
+    </LinearLayout>
+    <!-- Clear Data Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/txtClearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Clear All Data"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="@font/cinzelbold"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This will permanently remove all files and settings from the app. This action cannot be undone."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/cinzelsemibold"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnClearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear All Data"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cinzelbold"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

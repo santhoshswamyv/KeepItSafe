@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background"
+    android:gravity="center_horizontal">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/cinzelbold"
+        android:textColor="@color/dialogTextColor"
+        android:paddingLeft="2dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Extra Message -->
+    <TextView
+        android:id="@+id/txtDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra message..."
+        android:textSize="16sp"
+        android:paddingLeft="2dp"
+        android:fontFamily="@font/cinzelregular"
+        android:textColor="@color/dialogTextColor"
+        android:visibility="gone"
+        android:paddingBottom="12dp" />
+
+    <!-- Input Field -->
+    <EditText
+        android:id="@+id/edtDialogInput"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Type here..."
+        android:padding="7dp"
+        android:background="@drawable/input_background"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Negative"
+            android:fontFamily="@font/cinzelsemibold"
+            android:textColor="@color/ashGray"
+            android:background="@drawable/button_background"
+            android:padding="8dp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnDialogConfirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Positive"
+            android:fontFamily="@font/cinzelsemibold"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

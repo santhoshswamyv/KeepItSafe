@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="@color/appBg">
+
+    <!-- File Icon -->
+    <ImageView
+        android:id="@+id/fileIcon"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/pdf" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- File Name -->
+        <TextView
+            android:id="@+id/txtFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="File Name.pdf"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <!-- Uploaded Date & Time -->
+        <TextView
+            android:id="@+id/txtFileDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Modified on :- "
+            android:textColor="@color/smallText"
+            android:fontFamily="@font/cinzelsemibold"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- Action Buttons (Fixed Position) -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Rename Button -->
+        <ImageView
+            android:id="@+id/btnRename"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/rename"
+            android:contentDescription="Rename"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"/>
+
+        <!-- Delete Button -->
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete"
+            android:contentDescription="Delete"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
