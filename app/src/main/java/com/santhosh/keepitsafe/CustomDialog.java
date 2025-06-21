@@ -59,7 +59,7 @@ public class CustomDialog {
                 String inputText = editText.getText().toString().trim();
                 callback.onConfirm(inputText);  // Pass the input to the callback
             } else {
-                if (title.contains("Delete")){
+                if (positiveText.equals("Yes")){
                     callback.onConfirm("");
                 }else{
                     callback.onConfirm(null);  // No input case
