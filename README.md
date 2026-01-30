@@ -36,13 +36,6 @@ The app safely stores files and prevents unauthorized access through the device 
 
 ---
 
-## 🚧 Current Limitations
-- UI can be further improved
-- Cloud backup not implemented
-- Limited file preview support
-
----
-
 ## 🔮 Future Improvements
 - Cloud backup and restore
 - Implement encryption methods
