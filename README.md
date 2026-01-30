@@ -1,10 +1,4 @@
 # 🔐 KeepItSafe
-
-**KeepItSafe** is a secure mobile application that helps users protect their personal documents using biometric authentication or password-based security.  
-The app safely stores files and prevents unauthorized access through the device file manager.
-
----
-
 ## 🚀 Features
 - Biometric authentication (Fingerprint Lock)
 - Password-protected access
