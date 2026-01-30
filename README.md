@@ -6,7 +6,7 @@ The app safely stores files and prevents unauthorized access through the device 
 ---
 
 ## 🚀 Features
-- Biometric authentication (Fingerprint / Face Lock)
+- Biometric authentication (Fingerprint Lock)
 - Password-protected access
 - Securely stores uploaded files:
   - Images
